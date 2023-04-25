@@ -1,15 +1,15 @@
 @font-face {
   font-family: "Big Noodle Titling";
-  src: url("big_noodle_titling.woff") format("woff");
+  src: url("/fonts/big_noodle_titling.woff") format("woff");
 }
 
 @font-face {
   font-family: "TT Fellow";
-  src: url("TT\ Fellows\ Trial\ DemiBold.woff") format("woff");
+  src: url("/fonts/TT_Fellows.woff") format("woff");
 }
 @font-face {
   font-family: "Big Whale";
-  src: url("Bigwhale.woff") format("woff");
+  src: url("/fonts/Bigwhale.woff") format("woff");
 }
 
 .herotext {
