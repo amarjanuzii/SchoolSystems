@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Big Noodle Titling";
+  src: url("big_noodle_titling.woff") format("woff");
+}
+
+@font-face {
+  font-family: "TT Fellow";
+  src: url("TT\ Fellows\ Trial\ DemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Big Whale";
+  src: url("Bigwhale.woff") format("woff");
+}
+
+.herotext {
+  font-family: "Big Noodle Titling";
+  letter-spacing: 5px;
+}
+.abouttext {
+  font-family: "Big Whale";
+  letter-spacing: 5px;
+}
+
+.herop {
+  font-family: "TT Fellow";
+}
+
+.aboutp {
+  font-family: "TT Fellow";
+}
+
+#Solucions h1 {
+  font-family: "Big Whale";
+  letter-spacing: 5px;
+}
+#Solucions h2 {
+  font-family: "Big Whale";
+  letter-spacing: 5px;
+}
+#Solucions p {
+  font-family: "TT Fellow";
+}
+
+#problems h1 {
+  font-family: "Big Whale";
+  letter-spacing: 5px;
+}
+#problems h2 {
+  font-family: "Big Whale";
+  letter-spacing: 5px;
+}
+#problems p {
+  font-family: "TT Fellow";
+}
+
+nav {
+  padding-bottom: 30px;
+}
+
+#blog h2 {
+  font-family: "Big Whale";
+  letter-spacing: 5px;
+}
+
+#blog h4 {
+  font-family: "Big Whale";
+  letter-spacing: 5px;
+}
+
+img {
+  border-radius: 30px;
+}
