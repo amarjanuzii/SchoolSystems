@@ -13,44 +13,38 @@
 }
 
 .herotext {
-  font-family: "Big Noodle Titling";
-  letter-spacing: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .abouttext {
-  font-family: "Big Whale";
-  letter-spacing: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .herop {
-  font-family: "TT Fellow";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .aboutp {
-  font-family: "TT Fellow";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #Solucions h1 {
-  font-family: "Big Whale";
-  letter-spacing: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 #Solucions h2 {
-  font-family: "Big Whale";
-  letter-spacing: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 #Solucions p {
-  font-family: "TT Fellow";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #problems h1 {
-  font-family: "Big Whale";
-  letter-spacing: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 #problems h2 {
-  font-family: "Big Whale";
-  letter-spacing: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 #problems p {
-  font-family: "TT Fellow";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav {
@@ -58,15 +52,17 @@ nav {
 }
 
 #blog h2 {
-  font-family: "Big Whale";
-  letter-spacing: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 #blog h4 {
-  font-family: "Big Whale";
-  letter-spacing: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 img {
   border-radius: 30px;
+}
+
+.forms{
+  padding: 50px;
 }
