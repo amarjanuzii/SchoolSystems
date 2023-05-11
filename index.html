@@ -16,6 +16,8 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
   />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
 </head>
 
 <body class="bg-gray-900">
@@ -212,7 +214,7 @@
         </div>
         <div
             class="flex justify-center h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:right-0 lg:items-end">
-            <img src="https://images.unsplash.com/photo-1490424660416-359912d314b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTZ8ODUxMDYzOXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            <img src="img/solutionsimg.jpg"
                 class="object-cover object-right w-full h-auto lg:w-auto lg:h-full" alt="" />
         </div>
     </div>
@@ -343,7 +345,7 @@
         class=" text-white text-left p-12 max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-4xl">
         <b>Contact us! <Br> Identify other issues faced by our school system.</b>
     </h4>
-        <form action="mailto:amarjanuzi5@gmail.com" class="forms">
+        <form class="forms" id="myForm">
             <div class="relative z-0 w-full mb-6 group">
                 <input type="email" name="floating_email" id="floating_email"
                     class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
@@ -411,9 +413,9 @@
                 </li>
             </ul>
         </footer>
-
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-
+     
+    
+<script src="script.js"></script>
 </body>
 
 </html>
