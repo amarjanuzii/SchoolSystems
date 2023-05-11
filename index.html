@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="icon" href="img/iconlogoo.png">
     <link rel="stylesheet" href="https://amarjanuzii.github.io/LESSERAFIM/style.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
+  />
 </head>
 
 <body class="bg-gray-900">
@@ -60,7 +64,36 @@
                             class="block py-2 pl-3 pr-4 text-gray-400  rounded md:bg-transparent md:hover:text-white md:p-0">
                             Success Stories</a>
                     </li>
+                    <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                        <span class="fi fi-us fis"></span>
+
+                        English (US)
+                      </button>
+                      <div class="hidden  text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700" id="language-dropdown-menu">
+                        <ul class="py-2 font-medium" role="none">
+                          <li>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                                <span class="fi fi-us fis"></span>
+
+                                <div class="inline-flex items-center">
+                                English (US)
+                              </div>
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="shqip/al_index.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                                <span class="fi fi-al fis"></span>
+
+                                <div class="inline-flex items-center">
+                                Shqip (Albanian)
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
                 </ul>
+                
             </div>
         </div>
     </nav>
@@ -74,7 +107,7 @@
                     system in Kosovo. Our mission is to empower students, teachers, and communities to unlock their full
                     potential through quality education. Join us in our efforts to create a brighter future for Kosovo
                     through education...</p>
-                <button class="btn btn-active herobutton">Learn MoRE</button>
+                    <a href="#about" >  <button class="btn btn-active herobutton" >Learn More</button></a>
             </div>
         </div>
     </div>
@@ -195,7 +228,7 @@
                 <h5 class=" news-text mb-2 p-3 text-2xl font-bold tracking-tight text-white overflow-ellipsis">How
                     Finland's Education System Became the Best in the World </h5>
                 <a class="text-white bg-gray-700 hover:bg-black-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center"
-                    href="finland.html" target="_blank"> Read more </a>
+                    href="finland.html" > Read more </a>
             </div>
             <div class="w-full p-5 -md  news rounded">
                 <img src="https://images.unsplash.com/photo-1519406596751-0a3ccc4937fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGNsYXNzcm9vbXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
@@ -203,7 +236,7 @@
                 <h5 class=" news-text mb-2 p-3 text-2xl font-bold tracking-tight text-white overflow-ellipsis">
                     Transforming Schools in Rwanda: An Inspiring Story </h5>
                 <a class="text-white bg-gray-700 hover:bg-black-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center :hoverinline-flex items-center"
-                    href="Rwanda.html" target="_blank"> Read more </a>
+                    href="Rwanda.html" > Read more </a>
             </div>
             <div class="w-full p-5 -md  news  rounded">
                 <img src="https://images.unsplash.com/photo-1614605918339-04765732ae5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGNsYXNzcm9vbXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
@@ -211,7 +244,7 @@
                 <h5 class=" news-text mb-2 p-3 text-2xl font-bold tracking-tight text-white overflow-ellipsis">
                     Singapore's Secret to Educational Success </h5>
                 <a class="text-white bg-gray-700  focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center"
-                    href="singapore.html" target="_blank"> Read more </a>
+                    href="singapore.html" > Read more </a>
             </div>
         </div>
         <h4
@@ -296,11 +329,21 @@
             </div>
         </div>
 
+        <div class="videos">
+            <h4
+        class=" text-white text-left p-12 max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl">
+        <b>Check out this video made by AI</b>
+    </h4>
+    <div class="aspect-w-16 aspect-h-9">
+        <iframe src="https://www.youtube.com/embed/h1xt9dS5fZI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>       
+</div>
+       
         <h4
         class=" text-white text-left p-12 max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-4xl">
         <b>Contact us! <Br> Identify other issues faced by our school system.</b>
     </h4>
-        <form class="forms">
+        <form action="mailto:amarjanuzi5@gmail.com" class="forms">
             <div class="relative z-0 w-full mb-6 group">
                 <input type="email" name="floating_email" id="floating_email"
                     class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
@@ -331,7 +374,7 @@
             </div>
             <div class="grid md:grid-cols-2 md:gap-6">
                 <div class="relative z-0 w-full mb-6 group">
-                    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone"
+                    <input type="tel" name="floating_phone" id="floating_phone"
                         class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                         placeholder=" " required />
                     <label for="floating_phone"
@@ -368,6 +411,9 @@
                 </li>
             </ul>
         </footer>
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
 </body>
 
 </html>
